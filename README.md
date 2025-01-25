@@ -1,14 +1,14 @@
-# Python Hacks 🐍
+# Python Tips and Tricks 🐍
 
-**Python Hacks** is a collection of small, nifty Python tricks and tips designed to streamline your python workflow, boost your productivity, and help you write smarter code. 
+This page contains a collection of small, helpful Python tricks and tips designed to streamline your Python workflow, improve your productivity, and help you write smarter code. 
 
 ## 📖 Table of Contents
 
 - [Warning when pip install in base](#warning-when-pip-install-in-base)
-
+- [Print folder tree structure in terminal](#print-folder-tree-structure-in-terminal)
 ---
 
-## 👾 Hacks
+## 💡 Tips and Hacks
 
 ### Warning when pip install in base
 Add this script to your shell configuration file, e.g. `~/.bashrc` or `~/.zshrc`. To check which shell you are using run `echo $SHELL`.
@@ -26,6 +26,19 @@ pip() {
     command pip "$@"
 }
 ```
+
+### Print folder tree structure in terminal
+The terminal command `tree` lets you list the contents of a folder as a tree-like structure. 
+
+![](images/tree.png)
+
+Instructions to install `tree`on Linux or MacOS (already pre-installed on Windows): 
+
+```
+sudo apt-get install tree # On Linux
+brew install tree # On MacOS (with homebrew)
+```
+
 ---
 
 Happy hacking! 💻
