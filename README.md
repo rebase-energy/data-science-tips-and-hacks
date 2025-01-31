@@ -30,7 +30,7 @@ pip() {
 ### Print folder tree structure in terminal
 The terminal command `tree` lets you list the contents of a folder as a tree-like structure. The command to run is `tree path/to/folder`. 
 
-![](images/tree.png)
+<img src="images/tree.png" width="300">
 
 Instructions to install `tree`on Linux or MacOS (already pre-installed on Windows): 
 
