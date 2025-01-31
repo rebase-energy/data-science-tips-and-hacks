@@ -1,4 +1,4 @@
-# Python Tips and Tricks 🐍
+# Data Science Tips and Tricks 📈
 
 This page contains a collection of small, helpful Python tricks and tips designed to streamline your Python workflow, improve your productivity, and help you write smarter code. 
 
@@ -28,7 +28,7 @@ pip() {
 ```
 
 ### Print folder tree structure in terminal
-The terminal command `tree` lets you list the contents of a folder as a tree-like structure. 
+The terminal command `tree` lets you list the contents of a folder as a tree-like structure. The command to run is `tree path/to/folder`. 
 
 ![](images/tree.png)
 
